@@ -1,0 +1,19 @@
+{
+  "name": "timetably-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalifa-is/timetably.git"
+  },
+  "author": "Ibrahim Idris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalifa-is/timetably/issues"
+  },
+  "homepage": "https://github.com/khalifa-is/timetably#readme"
+}
