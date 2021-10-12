@@ -24,6 +24,6 @@ func main() {
 
 	err = db.AutoMigrate(&User{})
 	if err != nil {
-		panic("Failed to migrate DB!")
+		panic("Failed to migrate DB")
 	}
 }
