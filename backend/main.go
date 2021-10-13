@@ -26,4 +26,6 @@ func main() {
 	if err != nil {
 		panic("Failed to migrate DB")
 	}
+
+	// Test insert
 }
