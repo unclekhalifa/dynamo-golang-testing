@@ -27,5 +27,5 @@ func main() {
 		panic("Failed to migrate DB")
 	}
 
-	// Test insert
+	// Test insert and update
 }
