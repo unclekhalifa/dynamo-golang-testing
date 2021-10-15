@@ -28,4 +28,5 @@ func main() {
 	}
 
 	// Test insert and update
+	// Test CRUD functionality
 }
