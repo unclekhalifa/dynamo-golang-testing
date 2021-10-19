@@ -29,5 +29,5 @@ func main() {
 
 	// Test CRUD functionality
 	// Setup Form-User relationship
-	// Test out mysql connection with dynamodb
+	// Test out mysql connection with Dynamodb
 }
