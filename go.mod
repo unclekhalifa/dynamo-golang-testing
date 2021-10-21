@@ -1,4 +1,4 @@
-module github.com/khalifa-is/timetably
+module github.com/khalifa-is/dynamo-golang-testing
 
 go 1.17
 
