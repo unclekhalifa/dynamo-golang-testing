@@ -43,7 +43,15 @@ func main() {
 		panic("Failed to migrate DB")
 	}
 
+	db.Create(&User{FirstName: "John", LastName: "Doe", Email: "john@doe.com", Password: "password", Colour: "#ebebeb"})
+
+	var user User
+	db.First(&user, "FirstName = ?", "John")
+
+	db.Model(&user).Update("Email", "john@mail.co.uk")
+
+	fmt.Println("Fin")
+
 	// Test CRUD functionality
 	// Setup Form-User relationship
-	// Test out mysql connection with Dynamodb
 }
