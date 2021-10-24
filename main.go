@@ -51,7 +51,6 @@ func main() {
 	db.Model(&user).Update("Email", "john@mail.co.uk")
 
 	fmt.Println("Fin")
-
-	// Test CRUD functionality
+	
 	// Setup Form-User relationship
 }
