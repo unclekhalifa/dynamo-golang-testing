@@ -52,5 +52,5 @@ func main() {
 
 	fmt.Println("Fin")
 	
-	// Setup Form-User relationship
+	// Setup Form-User relationship (1-many r/ship)
 }
