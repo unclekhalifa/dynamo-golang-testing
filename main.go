@@ -49,8 +49,6 @@ func main() {
 	db.First(&user, "FirstName = ?", "John")
 
 	db.Model(&user).Update("Email", "john@mail.co.uk")
-
-	fmt.Println("Fin")
 	
 	// Setup Form-User relationship (1-many r/ship)
 }
