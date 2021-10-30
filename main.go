@@ -51,5 +51,6 @@ func main() {
 	db.Model(&user).Update("Email", "john@mail.co.uk")
 
 	// Setup Form-User relationship (1-many r/ship)
+	// Setup web server to use CRUD
 	// Test queries
 }
