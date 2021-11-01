@@ -43,10 +43,10 @@ func main() {
 		panic("Failed to migrate DB")
 	}
 
-	db.Create(&User{FirstName: "John", LastName: "Doe", Email: "john@mail.com", Password: "password", Colour: "#efefef"})
+	db.Create(&User{FirstName: "Mike", LastName: "Doe", Email: "john@mail.com", Password: "password", Colour: "#efefef"})
 
 	var user User
-	db.First(&user, "FirstName = ?", "John")
+	db.First(&user, "FirstName = ?", "Mike")
 
 	db.Model(&user).Update("Email", "hello@mail.com")
 
